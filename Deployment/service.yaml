@@ -8,11 +8,10 @@ metadata:
 spec:
   ports:
   - name: bakehouseport
-    port: 8083
+    port: 8001
     protocol: TCP
     targetPort: 80
   selector:
     app: bakehouse
-  type: NodePort
 status:
   loadBalancer: {}
